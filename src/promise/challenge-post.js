@@ -46,7 +46,7 @@ const data = {
     price: 5678,
   };
 
-  updateData(${API}/products/55, newData)
+  updateData(`${API}/products/55`, newData)
   .then(response => response.json())
   .then(data => console.log(data))
 
